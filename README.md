@@ -13,13 +13,14 @@ Servidor:
 ## instalacion
 - Clonar o descargar este repositorio
 - Instalar nodemon: `npm i nodemon -g`
-- `
+- 
+```
 yarn or npm install
 cd client
 yarn or npm install
-`
+```
 
 ## instalacion
-`
+``
 yarn dev
-`
+``
