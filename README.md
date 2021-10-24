@@ -20,7 +20,7 @@ cd client
 yarn or npm install
 ```
 
-## instalacion
+## iniciar servidor y cliente
 ``
 yarn dev
 ``
