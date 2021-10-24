@@ -1,0 +1,38 @@
+.product-detail {
+    background-color: #FFF;
+    padding: $spacing-16;
+
+    .content-description {
+        padding-left: $spacing-16;
+    }
+
+    h1 {
+        font-size: $font-size-46;
+        margin-bottom: $spacing-32;
+    }
+    h2 {
+        font-size: $font-size-28;
+        margin-bottom: $spacing-32;
+    }
+    h3 {
+        font-size: $font-size-24;
+        margin-bottom: $spacing-32;
+    }
+    p {
+        font-size: $font-size-16;
+        color: $meli-gray;
+
+        &.small {
+            margin: $spacing-16 0;
+            font-size: $font-size-14;
+            color: unset;
+        }
+    }
+    .button-comprar {
+        margin-right: $spacing-16;
+
+        .btn-primary {
+            background-color: $meli-blue;
+        }
+    }
+}

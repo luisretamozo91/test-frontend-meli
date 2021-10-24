@@ -1,0 +1,25 @@
+{
+  "name": "test-meli-express",
+  "version": "1.0.0",
+  "description": "Test Meracado libre",
+  "main": "server.js",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "author": "Luis Retamozo",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.4",
+    "dotenv": "^6.2.0",
+    "numeral": "^2.0.6"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.2",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.14"
+  }
+}

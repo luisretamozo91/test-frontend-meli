@@ -1,0 +1,26 @@
+nav {
+    
+    background: $meli-yellow;
+    
+    a {
+      cursor: pointer;
+    }
+
+    input.form-control {
+        font-size: $font-size-18;
+
+        &::placeholder {
+            color: $meli-gray;
+        }
+    }
+
+    .input-group-text {
+        background-color: $meli-light-gray;
+        border-top-right-radius: $border-radius!important;
+        border-bottom-right-radius: $border-radius!important;
+        margin-left: -1px;
+    }
+}
+
+
+

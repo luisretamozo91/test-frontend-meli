@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $meli-light-gray;
+}
+
+.hidden-title {
+  font-size: 0;
+  width: 1px;
+  height: 1px;
+  display: inline-block;
+  overflow: hidden;
+  position: absolute!important;
+  border: 0!important;
+  padding: 0!important;
+  margin: 0!important;
+  clip: rect(1px,1px,1px,1px);
+}
+
+textarea:focus, 
+textarea.form-control:focus, 
+input.form-control:focus, 
+input[type=text]:focus, 
+[contenteditable].form-control:focus {
+  border-color: rgba(0, 0, 0, 0);
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(0, 0, 0, 0);
+  outline: 0 none;
+}
+
+.form-control {
+  border: 1px solid #0000;
+}

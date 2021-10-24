@@ -1,0 +1,20 @@
+.breadcrumb {
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: transparent;
+    
+    .breadcrumb-item{
+        font-size: $font-size-14;
+        color: $meli-medium-gray;
+    }
+    
+    .breadcrumb-item + .breadcrumb-item::before {
+        content: ">";
+    }
+    
+    .breadcrumb-item:last-child {
+        font-weight: bold;
+    }
+}
+
